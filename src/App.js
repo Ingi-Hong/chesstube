@@ -33,7 +33,13 @@ function App() {
 
     <div>
       <h2>Hellow</h2>
-      items.map()
+      {items.videos.map((item) => (
+        <ul>
+          <li>
+            {item.vid1}
+          </li>
+        </ul>
+      ))}
         
       <h1>Succesfully Loaded JSON</h1>
     </div>
