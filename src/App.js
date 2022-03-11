@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import './videos.json';
 
 function App() {
 
@@ -9,19 +8,20 @@ function App() {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
-    fetch('videos.json')
-    .then((res) => res.json())
-    .then(
-      (result) => {
-        setIsLoaded(true);
-        setItems(result);
-      },
-      (error) => {
-        setIsLoaded(true);
-        setError(error);
-      }
-    );
-  }, []);
+    fetch("videos.json")
+    .then(response => response.json())
+    .then(data => {
+      console.log(data)
+      setItems(data)
+      setIsLoaded(true);
+    }, 
+    
+    (error) => {
+      setError(error)
+      setIsLoaded(true);
+    }
+    )
+  });
 
   if (error){
     return <>ERROR {error.message}</>;
@@ -30,9 +30,12 @@ function App() {
   } else {
 
   return (
-    <div className="wrapper">
-      <h1>Succesfully Loaded JSON</h1>
 
+    <div>
+      <h2>Hellow</h2>
+      items.map()
+        
+      <h1>Succesfully Loaded JSON</h1>
     </div>
   );
 }

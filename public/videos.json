@@ -1,13 +1,5 @@
 {
-    "speedruns":[{
-        "video1":[{
-            "link":"https://www.youtube.com/watch?v=iiADhChRriM",
-            "isTutorial":false
-        }]
-    }],
-
-    "educational":[{
-        "cock":"poop"
-    }]
+    "vid1":"poop",
+    "vid2":"poop"
 }
 
