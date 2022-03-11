@@ -24,14 +24,14 @@ function App() {
   }, []);
 
   if (error){
-    return <>{error.message}</>;
+    return <>ERROR {error.message}</>;
   } else if (!isLoaded) {
     return <>loading...</>;
   } else {
 
   return (
     <div className="wrapper">
-      <h1>Hello</h1>
+      <h1>Succesfully Loaded JSON</h1>
 
     </div>
   );
