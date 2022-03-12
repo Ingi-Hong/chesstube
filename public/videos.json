@@ -1,8 +1,33 @@
-{
-    "videos":
-    [{
-    "vid1":"poop",
-    "vid2":"poop"
-    }]
-}
 
+[
+    {
+        "id":0,
+        "title":"Test Title 0",
+        "elo":1250,
+        "creator":"Daniel Naroditsky",
+        "isWhite":true,
+        "firstMove":"e4 e5",
+        "opening":"Queen's Gambit",
+        "link":"https://www.poop.com"
+    }, 
+    {
+        "id":1,
+        "title":"Test Title 1",
+        "elo":69,
+        "creator":"Eric Rosen",
+        "isWhite":false,
+        "firstMove":"d4 g5",
+        "opening":"Stafford Gambit",
+        "link":"https://www.pee.com"
+    }, 
+    {
+        "id":2,
+        "title":"Test Title 2",
+        "elo":2500,
+        "creator":"Superman",
+        "isWhite":false,
+        "firstMove":"e4 c5",
+        "opening":"Cock Gobbler",
+        "link":"https://www.youtube.com/watch?v=AjzPYMluf3o"
+    }
+]

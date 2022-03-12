@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import videoBlock from './components';
 
 function App() {
 
@@ -32,16 +33,14 @@ function App() {
   return (
 
     <div>
-      <h2>Hellow</h2>
-      {items.videos.map((item) => (
-        <ul>
-          <li>
-            {item.vid1}
-          </li>
-        </ul>
+      <h1>Chesstube</h1>
+      <h2>Videos</h2>
+      <ul>
+      {items.map(item => (
+        <li>{item.title}, {item.elo}, {item.creator}, {item.link}, {item.opening}</li>
       ))}
-        
-      <h1>Succesfully Loaded JSON</h1>
+      <li><videoBlock /></li>
+      </ul>
     </div>
   );
 }
