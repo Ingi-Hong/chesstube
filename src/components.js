@@ -1,9 +1,7 @@
 import React from "react";
 
-class videoBlock extends React.Component{
-    render(){
-        return <h1>Hello</h1>
-    }
+function VideoBlock(props){
+    return <h1>Video title is {props.title}</h1>;
 }
 
-export default videoBlock
+export default VideoBlock;

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import videoBlock from './components';
+import VideoBlock from './components';
 
 function App() {
 
@@ -37,10 +37,10 @@ function App() {
       <h2>Videos</h2>
       <ul>
       {items.map(item => (
-        <li>{item.title}, {item.elo}, {item.creator}, {item.link}, {item.opening}</li>
+        <li><VideoBlock title={item.title}/></li>
       ))}
-      <li><videoBlock /></li>
       </ul>
+      
     </div>
   );
 }
