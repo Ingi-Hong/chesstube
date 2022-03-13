@@ -5,7 +5,7 @@
         "title":"Test Title 0",
         "elo":1250,
         "creator":"Daniel Naroditsky",
-        "isWhite":true,
+        "color":"white",
         "firstMove":"e4 e5",
         "opening":"Queen's Gambit",
         "link":"https://www.poop.com"
@@ -15,7 +15,7 @@
         "title":"Test Title 1",
         "elo":69,
         "creator":"Eric Rosen",
-        "isWhite":false,
+        "color":"black",
         "firstMove":"d4 g5",
         "opening":"Stafford Gambit",
         "link":"https://www.pee.com"
@@ -25,7 +25,7 @@
         "title":"Test Title 2",
         "elo":2500,
         "creator":"Superman",
-        "isWhite":false,
+        "color":"white",
         "firstMove":"e4 c5",
         "opening":"Cock Gobbler",
         "link":"https://www.youtube.com/watch?v=AjzPYMluf3o"

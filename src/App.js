@@ -37,7 +37,7 @@ function App() {
       <h2>Videos</h2>
       <ul>
       {items.map(item => (
-        <li><VideoBlock title={item.title}/></li>
+        <li><VideoBlock title={item.title} creator={item.creator} color={item.color}/></li>
       ))}
       </ul>
       
